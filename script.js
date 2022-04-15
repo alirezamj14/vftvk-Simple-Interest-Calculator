@@ -1,6 +1,11 @@
 function compute()
 {
     let capital = document.getElementById("capital").value;
+    if (capital <= 0) {
+        alert("Please enter a positive value as an amount.");
+        document.getElementById("capital").focus();
+        return;
+    }
     let r = document.getElementById("rate").value;
     let years = document.getElementById("years").value;
     let totalInterest = Math.round(capital * ((r/100) * years));
