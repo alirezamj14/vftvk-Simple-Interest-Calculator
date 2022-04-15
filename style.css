@@ -2,5 +2,6 @@ body {background-color:rgb(255, 255, 255); font-family: sans-serif;}
 h1{color:rgb(128, 128, 128); font-family: Verdana;}
 table{width:370px;}
 tr{height:30px;}
+#my_paragraph{margin-left:80px;}
 #my_table{margin-left:80px;}
 #my_button{margin-left:80px;}
