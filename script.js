@@ -3,7 +3,7 @@ function compute()
     let capital = document.getElementById("capital").value;
     let r = document.getElementById("rate").value;
     let years = document.getElementById("years").value;
-    let totalInterest = Math.round(capital * ((1+r/100) ** years) - capital);
+    let totalInterest = Math.round(capital * ((r/100) * years));
     let targetYear = Number(years) + 2022;
     const para = document.createElement("p");
     para.setAttribute("id", "my_paragraph");
